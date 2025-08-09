@@ -24,7 +24,12 @@ This project implements a Retrieval Augmented Generation (RAG) pipeline using Pa
    pip install paddleocr langchain google-generativeai weaviate-client python-dotenv PyPDF2 streamlit
    ```
 
-3. Run the application:
+3. Install docker:
+   ```
+   Connect weaviate to docker, to run the database locally
+   ```
+
+5. Run the application:
    ```
    FRONTEND:
    cd frontend
@@ -48,4 +53,5 @@ This project implements a Retrieval Augmented Generation (RAG) pipeline using Pa
 4. Chunks are stored in Weaviate along with their categories
 5. Search queries are enhanced using Gemini Pro for better semantic matching
 6. Results are retrieved from Weaviate based on semantic similarity
+
 
