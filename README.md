@@ -8,7 +8,7 @@ This project implements a Retrieval Augmented Generation (RAG) pipeline using Pa
 - Text chunking using Langchain's RecursiveCharacterTextSplitter
 - Semantic categorization using Google's Gemini Pro
 - Vector storage and search using Weaviate
-- Simple Streamlit-based user interface
+- React frontend with flaskAPI backend
 
 ## Setup
 
@@ -52,6 +52,7 @@ This project implements a Retrieval Augmented Generation (RAG) pipeline using Pa
 4. Chunks are stored in Weaviate along with their categories
 5. Search queries are enhanced using Gemini Pro for better semantic matching
 6. Results are retrieved from Weaviate based on semantic similarity
+
 
 
 
