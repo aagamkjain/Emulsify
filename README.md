@@ -25,9 +25,8 @@ This project implements a Retrieval Augmented Generation (RAG) pipeline using Pa
    ```
 
 3. Install docker:
-   ```
    Connect weaviate to docker, to run the database locally
-   ```
+   
 
 5. Run the application:
    ```
@@ -53,5 +52,6 @@ This project implements a Retrieval Augmented Generation (RAG) pipeline using Pa
 4. Chunks are stored in Weaviate along with their categories
 5. Search queries are enhanced using Gemini Pro for better semantic matching
 6. Results are retrieved from Weaviate based on semantic similarity
+
 
 
