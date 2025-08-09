@@ -1,0 +1,24 @@
+# Core FastAPI and web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# AI and ML
+google-generativeai==0.3.2
+langchain==0.1.0
+
+# Vector Database
+weaviate-client>=4.0.0
+
+# PDF Processing and OCR
+PyMuPDF==1.23.8
+opencv-python==4.8.1.78
+Pillow==10.1.0
+numpy==1.24.3
+
+# OCR Engines (optional but recommended)
+pytesseract==0.3.10
+easyocr==1.7.0
+
+# Utilities
+python-dotenv==1.0.0
